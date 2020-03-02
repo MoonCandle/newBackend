@@ -13,7 +13,7 @@
       "type": "richtext",
       "required": true
     },
-    "image": {
+    "picture": {
       "type": "string",
       "unique": false,
       "required": true

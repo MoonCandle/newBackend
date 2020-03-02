@@ -1,0 +1,21 @@
+{
+  "info": {
+    "name": "bio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "picture": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "bios"
+}

@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "bios",
   "info": {
     "name": "bio"
   },
@@ -12,12 +14,9 @@
       "required": true
     },
     "image": {
-      "model": "file",
-      "via": "related",
-      "plugin": "upload",
+      "type": "string",
+      "unique": false,
       "required": true
     }
-  },
-  "connection": "default",
-  "collectionName": "bios"
+  }
 }

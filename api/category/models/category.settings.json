@@ -12,6 +12,10 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "articles": {
+      "via": "category",
+      "collection": "article"
     }
   }
 }
